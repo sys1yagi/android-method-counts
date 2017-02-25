@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
-//apply plugin: 'com.getkeepsafe.dexcount'
+apply plugin: 'com.getkeepsafe.dexcount'
 
 android {
     compileSdkVersion 25
@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.sys1yagi.java8.retrolambda"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -37,15 +37,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile "com.android.support:appcompat-v7:$appcompat_v7_version"
+    compile "com.android.support.constraint:constraint-layout:$constraint_layout_version"
     compile 'com.annimon:stream:1.0.9'
     compile 'com.jakewharton.threetenabp:threetenabp:1.0.3'
-    testCompile 'junit:junit:4.12'
-    testCompile("com.squareup.assertj:assertj-android:1.1.1") {
-        exclude group: 'com.android.support'
-    }
-//    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
-//    androidTestCompile 'com.android.support.test:runner:0.5'
-//    androidTestCompile 'com.android.support:support-annotations:23.4.0'
 }
