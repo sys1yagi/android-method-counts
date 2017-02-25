@@ -1,0 +1,1 @@
+include ':java8-jack', ':java8-retrolambda', ':normal', ':kotlin'
