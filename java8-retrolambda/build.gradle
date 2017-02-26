@@ -39,6 +39,6 @@ android {
 dependencies {
     compile "com.android.support:appcompat-v7:$appcompat_v7_version"
     compile "com.android.support.constraint:constraint-layout:$constraint_layout_version"
-    compile 'com.annimon:stream:1.0.9'
-    compile 'com.jakewharton.threetenabp:threetenabp:1.0.3'
+    compile 'com.annimon:stream:1.1.5'
+    compile "com.jakewharton.threetenabp:threetenabp:$threetenabp_version"
 }
