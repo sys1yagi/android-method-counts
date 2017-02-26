@@ -31,6 +31,7 @@ Jack can not count the number of methods right now. [Method count when enabling 
 |methods|fields|apk|
 |:-:|:-:|:-:|
 |-|-|2168KB|
+|-|-|648KB|
 
 
 ## Java 8 Retrolambda
