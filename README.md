@@ -62,9 +62,8 @@ compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|24215|9614|1948KB|
-|+6153|+742|+428KB|
-
+|24215|9614|1904KB|
+|+6153|+742|+384KB|
 
 1.0.7-eap
 
