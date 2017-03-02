@@ -58,15 +58,15 @@ compile "com.android.support.constraint:constraint-layout:$constraint_layout_ver
 compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 ```
 
-1.1.0-rc
+1.1.0
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|24217|9614|1948KB|
-|+6155|+742|+428KB|
+|24215|9614|1948KB|
+|+6153|+742|+428KB|
 
 
-1.0.7
+1.0.7-eap
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
