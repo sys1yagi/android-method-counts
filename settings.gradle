@@ -1,1 +1,1 @@
-include ':java8-jack', ':java8-retrolambda', ':normal', ':kotlin'
+include ':java8-desugar', ':java8-retrolambda', ':normal', ':kotlin'

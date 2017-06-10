@@ -15,10 +15,12 @@ compile "com.android.support.constraint:constraint-layout:$constraint_layout_ver
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|18062|8872|1520KB|
+|18245|8974|1505KB|
 
 
-## Java 8 Jack and Jill
+## Java 8 desugar
+
+[desugar?](https://developer.android.com/studio/preview/features/java8-support.html)
 
 ```
 compile "com.android.support:appcompat-v7:$appcompat_v7_version"
@@ -30,12 +32,11 @@ Jack can not count the number of methods right now. [Method count when enabling 
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|-|-|2168KB|
-|-|-|648KB|
+|21316|9699|1706KB|
+|+3071|+725|+201KB|
 
 
 ## Java 8 Retrolambda
-
 
 ```
 compile "com.android.support:appcompat-v7:$appcompat_v7_version"
@@ -46,9 +47,12 @@ compile "com.jakewharton.threetenabp:threetenabp:$threetenabp_version"
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|22237|10031|1816KB|
-|+4175|+1159|+296KB|
+|22419|10033|1802KB|
+|+4174|+1059|+297KB|
 
+>NOTE: Build for java8-retrolambda.
+>Add android.enableDesugar=false to gradle.properties.
+>Comment out compileOptions on java8-desugar.
 
 ## Kotlin
 
@@ -58,17 +62,10 @@ compile "com.android.support.constraint:constraint-layout:$constraint_layout_ver
 compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 ```
 
-1.1.1
+1.1.2-4
 
 |methods|fields|apk|
 |:-:|:-:|:-:|
-|24223|9614|1905KB|
-|+6161|+742|+385KB|
-
-1.0.7-eap
-
-|methods|fields|apk|
-|:-:|:-:|:-:|
-|23477|9520|1852KB|
-|+5415|+648|+332KB|
+|24377|9720|1903KB|
+|+6132|+746|+398KB|
 
