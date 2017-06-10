@@ -28,8 +28,6 @@ compile "com.android.support.constraint:constraint-layout:$constraint_layout_ver
 compile "com.jakewharton.threetenabp:threetenabp:$threetenabp_version"
 ```
 
-Jack can not count the number of methods right now. [Method count when enabling Jack compiler](https://github.com/KeepSafe/dexcount-gradle-plugin/issues/143)
-
 |methods|fields|apk|
 |:-:|:-:|:-:|
 |21316|9699|1706KB|
